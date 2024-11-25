@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards1 {
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card1-1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .cards-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        /* flex-wrap: wrap; */
+    }
+
+    .card1-1 {
+        background-color: red;
+        width: 150px;
+        height: 150px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+
+    .card1-1 {
+        width: 280px;
+        height: 200px;
+        background-color: yellow;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 955px) {
+    body {
+        background-color: blue;
+    }
+
+    .card1-1 {
+        width: 260px;
+        height: 180px;
+        background-color: red;
+        color: white;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media (max-width: 888px) {
+    body {
+        background-color: yellow;
+    }
+
+    .card1-1 {
+        width: 220px;
+        height: 180px;
+        background-color: black;
+        color: white;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media (max-width: 755px) {
+    body {
+        background-color: green;
+    }
+
+    .card1-1 {
+        width: 190px;
+        height: 160px;
+        background-color: white;
+        color: black;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+    }
+
+}
+
+@media (max-width: 655px) {
+    body {
+        background-color: white;
+    }
+
+    .card1-1 {
+        width: 170px;
+        height: 150px;
+        background-color: red;
+        color: white;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media (max-width: 588px) {
+    body {
+        background-color: black;
+    }
+
+    .card1-1 {
+        width: 170px;
+        height: 150px;
+        background-color: green;
+        color: white;
+    }
+
+    .cards1 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+    }
+}
